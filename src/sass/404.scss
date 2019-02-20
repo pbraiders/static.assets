@@ -1,0 +1,13 @@
+@charset "UTF-8";
+//  ===========================================================================
+//  404.html page style
+//      2015-10-09
+//  ===========================================================================
+@import "partial/utilities";
+@import "partial/reset";
+@import "partial/base";
+@import "partial/primary/base";
+
+$tm-add-hide: 0;
+
+@import "partial/secondary/base";

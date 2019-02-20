@@ -1,0 +1,43 @@
+// ============================================================================
+//   Default
+//      2015-10-09
+//   ==========================================================================
+
+/* == Default ============================================================== */
+
+html, body, div, header, section, nav, footer, h1, h2, p, a, strong, small, ul, li
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+html {
+    line-height: 1;
+}
+
+img
+{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+a img
+{
+    border: none;
+}
+
+header, section, nav, footer
+{
+    display: block;
+}
+
+ul
+{
+    list-style: none;
+}

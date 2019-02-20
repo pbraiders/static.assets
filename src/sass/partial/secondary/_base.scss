@@ -1,0 +1,24 @@
+//  ===========================================================================
+//  Secondary style - Desktop
+//      2015-10-09
+//  ===========================================================================
+
+/* == Secondary style - Desktop ============================================ */
+
+@media only screen and (min-width: 43em)
+{
+    .tm-section
+    {
+        @include inline-block(top);
+        width: 45%;
+        padding: 0 1em;
+    }
+
+    @if $tm-add-hide == 1
+    {
+        .tm-hide
+        {
+            display: inline;
+        }
+    }
+}

@@ -1,0 +1,33 @@
+//  ===========================================================================
+//  Primary style - Mobile
+//      2015-10-09
+//  ===========================================================================
+
+/* == Primary style - Mobile =============================================== */
+
+#tm-wrapper
+{
+    overflow: hidden;
+}
+
+#tm-header, #tm-article, .tm-section
+{
+    @include tm-text-align;
+    @include tm-margin;
+}
+
+#tm-logo
+{
+    @include tm-text-align;
+}
+
+#tm-article p
+{
+    margin: 1em 0;
+}
+
+#tm-footer
+{
+    margin: 2em 0;
+    color: $gFooterColor;
+}

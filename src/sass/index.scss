@@ -1,0 +1,20 @@
+@charset "UTF-8";
+//  ===========================================================================
+//  Index.html page style
+//      2016-04-27
+//  ===========================================================================
+@import "partial/utilities";
+@import "partial/reset";
+@import "partial/base";
+@import "partial/primary/base";
+
+.tm-red {
+    color: $gLinkColor;
+}
+
+@import "partial/primary/nav/base";
+@import "partial/primary/nav/tier";
+
+$tm-add-hide: 1;
+
+@import "partial/secondary/base";

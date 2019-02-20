@@ -1,0 +1,98 @@
+//  ===========================================================================
+//  Base
+//      2015-10-09
+//      red => #cc3333 => rgb( 204, 51, 51) => crimson
+//      red => #cc0033 => rgb( 204, 0, 51)  => darkred
+//      darkgray => rgb( 169, 169, 169)
+//      gray => #333333 => rgb( 51, 51, 51) => dimgray
+//  ===========================================================================
+
+$gBackgroundColor: white;
+$gLinkColor: crimson;
+$gHoverColor: darkred;
+$gFooterColor: darkgray;
+$gHeaderColor: dimgray;
+
+@import "compass/css3/inline-block";
+
+@mixin tm-text-align
+{
+    text-align: center;
+}
+
+@mixin tm-margin
+{
+    margin: 2em 0.063em;
+}
+
+/* == Body ================================================================= */
+
+html
+{
+    overflow-x: hidden;
+}
+
+body
+{
+    background-color: $gBackgroundColor;
+    font: 100%/1.4 "Georgia", "Helvetica", serif;
+    margin: 8px;
+}
+
+/* == Link ================================================================= */
+
+@import "compass/typography/links/hover-link";
+@import "compass/typography/links/link-colors";
+
+a
+{
+    @include hover-link;
+    @include link-colors( $gLinkColor, $gHoverColor, $gLinkColor, $gLinkColor, $gHoverColor);
+}
+
+#tm-footer
+{
+    a
+    {
+        @include link-colors( $gFooterColor, $gHoverColor, $gFooterColor, $gFooterColor, $gHoverColor);
+    }
+}
+
+/* == Typography =========================================================== */
+
+#tm-wrapper
+{
+    font-size: 1em;
+}
+
+strong
+{
+    font-weight: bold;
+}
+
+small
+{
+    font-size: 0.8125em;
+}
+
+h1, h2
+{
+    text-transform: uppercase;
+    color: $gHeaderColor;
+}
+
+h1
+{
+    font-size: 2em;
+}
+
+h2
+{
+    font-size: 1.4em;
+}
+
+p
+{
+    text-align: justify;
+}
+

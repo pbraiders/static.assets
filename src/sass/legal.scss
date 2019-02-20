@@ -1,0 +1,15 @@
+@charset "UTF-8";
+//  ===========================================================================
+//  Legal.html page style
+//      2015-10-09
+//  ===========================================================================
+@import "partial/utilities";
+@import "partial/reset";
+@import "partial/base";
+@import "partial/primary/base";
+@import "partial/primary/nav/base";
+@import "partial/primary/nav/quater";
+
+$tm-add-hide: 1;
+
+@import "partial/secondary/base";
