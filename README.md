@@ -18,7 +18,7 @@ I'am sorry, I do not provide any documentation. Please read the code and the com
 
 For instructions on how to use, best practices, templates and other usage information, please visit the:
 
-- [SaSS documentation](https://secure.php.net/docs.php).
+- [SaSS documentation](https://sass-lang.com/documentation/file.SASS_REFERENCE.html).
 - [Ruby documentation](https://www.ruby-lang.org/en/documentation/).
 - [Compass documentation](http://compass-style.org/help/).
 
